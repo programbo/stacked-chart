@@ -53,7 +53,7 @@ const StyledValue = styled('span')(
     height: ${spacing(3)};
     box-shadow: ${shadows[1]};
     background-color: ${palette.common.white};
-    color: ${palette.primary.main};
+    color: inherit;
     font-size: 0.75rem;
     line-height: 1rem;
     font-weight: 700;

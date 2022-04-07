@@ -36,12 +36,12 @@ const StyledBarWrapper = styled('div')(
 )
 
 const StyledLabel = styled('h4')(
-  ({ theme: { palette, spacing } }) => css`
+  ({ theme: { spacing } }) => css`
     font-size: 0.875rem;
     font-weight: normal;
     line-height: 1.5rem;
     margin: ${spacing(0, 0, 0.5)};
-    color: ${palette.secondary.main};
+    color: inherit;
   `
 )
 

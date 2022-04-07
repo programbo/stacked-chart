@@ -41,13 +41,13 @@ StyledBenchmark.defaultProps = {
 }
 
 export const StyledLabel = styled('h3')(
-  ({ theme: { palette, spacing } }) => css`
+  ({ theme: { spacing } }) => css`
     font-size: 0.875rem;
     line-height: 1.5rem;
     margin: 0;
     padding-right: ${spacing(1)};
     text-align: center;
-    color: ${palette.secondary.main};
+    color: inherit;
 
     &:first-of-type {
       text-align: left;
