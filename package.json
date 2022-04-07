@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "stacked-chart",
+  "name": "@programbo/stacked-chart",
   "author": "John Lombardo",
   "module": "dist/stacked-chart.esm.js",
   "size-limit": [

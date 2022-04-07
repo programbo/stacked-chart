@@ -57,6 +57,7 @@ export default StackedChart
 
 const StyledChart = styled('figure')`
   width: 100%;
+  margin: 0;
 `
 
 const StyledSection = styled('section')`
